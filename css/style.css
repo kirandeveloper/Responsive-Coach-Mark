@@ -1,0 +1,48 @@
+.container {
+	background-color: green;
+	width:300px;	
+	height:450px;
+	margin:20px auto;
+}
+
+.textboxDemo {
+	width:400px;
+}
+.textboxDemo input {
+	margin:50px;
+}
+label {
+	color:white;
+	margin:0 10px;
+}
+.radioDemo {
+	height:220px;
+}
+
+.radioDemo1 {
+	position: absolute;
+	height:320px;
+	right:0;
+	z-index:1000;
+}
+
+.coachMarks {
+	position:absolute;
+	top:5px;
+	right:15px;
+}
+.coachMarks a {
+	cursor:pointer;
+	text-decoration: none;
+	color:inherit;
+}
+
+.coachMarks a:hover {
+	color:blue;	
+}
+
+@media (max-width :	 900px ) {
+	.radioDemo1 {
+		display:none;
+	}
+}
