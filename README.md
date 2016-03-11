@@ -40,7 +40,7 @@ $("DOM").coachMarks([options]);
 }
 ```
   * **isCoachMarkDisplay** : Boolean value to indicate wether plugin should be enabled or not. By default set to `true`
-  * **closeOnEscape** : if set to true, tour plugin will be closed when you press ESC key in the keyboard else false. Default `true`
+  * **closeOnEscape** : if set to true, tour plugin will be closed when you press `ESC` key in the keyboard else false. Default `true`
   * **clickAnyWhereClose** : Specify a boolean value to close when click outside the coach mark area, Default `false'
   * **coachMarksItem** : list of components to be described on that page
     - **domReference** : reference dom which is to be described
